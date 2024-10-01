@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <de.hs_kl.gatav.flyingsaucerfull.SpaceGLSurfaceView
+        android:id="@+id/spaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Explosion Animation (Frame by Frame) -->
+    <ImageView
+        android:id="@+id/explosionView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/explosion"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>
